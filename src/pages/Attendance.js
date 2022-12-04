@@ -4,7 +4,7 @@ import logo from '../images/logo.png';
 const Attendance = () => {
 
     const token =localStorage.getItem('token')
-    console .log(token);
+    console.log(token);
 
     const[data,setData]=useState([])
     useEffect(()=>{
